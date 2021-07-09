@@ -9,6 +9,7 @@
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" 
     crossorigin="anonymous">
     <link rel="stylesheet" href="assets/custom/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
     
@@ -41,7 +42,7 @@
                 </li>
               </ul>
               <div class="my-2 my-lg-0" id="nav-right">
-                <i data-toggle="modal" data-target="#modalSearch" class="mr-3 fa fa-search"></i>
+                <i data-toggle="modal" data-target="#modalSearch" class="mr-3"></i>
                 <a href="#" class="btn btn-sign-in">Sign In</a>
               </div>
             </div>
@@ -63,9 +64,22 @@
                                         merekomendasikan jurusan yang sesuai untukmu! Ikuti langkah - langkahnya untuk memulai.
                                     </p>
                                 </div>
-                                <div class="hero_search">
-                                    <select name="" id="" class="form-control"></select>
-                                </div>
+                                <form action="">
+                                    <div class="search_box">
+                                        <div class="search_field">
+                                            <input type="text" class="input" placeholder="Cari Universitas favorite kamu!">
+                                            <button type="button" class="btn btn-search-kampus"><i class="fa fa-search"></i></button>
+                                        </div>
+                                        <div class="dropdown">
+                                            <div class="default_option">Ind</div>  
+                                            <ul>
+                                              <li>All</li>
+                                              <li>Recent</li>
+                                              <li>Popular</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                         <div class="col-lg-5">
