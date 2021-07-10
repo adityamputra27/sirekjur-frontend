@@ -547,6 +547,16 @@
   .step_section {
     padding-bottom: 2em;
   }
+  .step_section .step_item .step_wrapper .step_text {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
+  .step_section .step_item .step_wrapper .step_text h1 {
+    font-size: 24px;
+  }
+  .step_section .step_item .step_wrapper .step_text p {
+    font-size: 1em;
+  }
   .universitas_section .universitas_item .card {
     max-width: 350px;
     min-height: 450px;
