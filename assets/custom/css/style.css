@@ -428,14 +428,13 @@
     background: #5323A5;
     margin: 5px;
   }
-  nav {
-    position: relative;
-  }
-
   .navbar {
     height: 15vh;
   }
-
+  .navbar .navbar-brand {
+    padding-bottom: 2em;
+    padding-top: 15px;
+  }
   .hamburger {
     position: absolute;
     cursor: pointer;
@@ -443,40 +442,40 @@
     top: 35%;
     z-index: 2;
   }
-
-  .navbar-nav {
-    position: fixed;
-    background: #5b78c7;
-    height: 100vh;
-    width: 100%;
-    flex-direction: column;
-    clip-path: circle(100px at 90% -10%);
-    -webkit-clip-path: circle(100px at 90% -10%);
-    transition: all 1s ease-out;
-    pointer-events: none;
+  .navbar-collapse {
+    padding: 0;
+    z-index: 999;
+    background: #5323A5;
+    text-align: center;
+    width: 100% !important;
+    border-radius: 10px;
   }
-  .navbar-nav.open {
-    clip-path: circle(1000px at 90% -10%);
-    -webkit-clip-path: circle(1000px at 90% -10%);
-    pointer-events: all;
+  .navbar-nav {
+    transition: all 1s ease-out;
   }
   .navbar-nav li {
-    opacity: 0;
+    margin: 30px 0px 0px 20px !important;
   }
-  .navbar-nav li a {
-    font-size: 25px;
+  .navbar-nav li > a {
+    font-size: 1em;
+    color: white !important;
   }
   .navbar-nav li:nth-child(1) {
-    transition: all 0.5s ease 0.2s;
+    transition: all 0.5s ease 0.2s !important;
   }
   .navbar-nav li:nth-child(2) {
-    transition: all 0.5s ease 0.4s;
+    transition: all 0.5s ease 0.4s !important;
   }
   .navbar-nav li:nth-child(3) {
-    transition: all 0.5s ease 0.6s;
+    transition: all 0.5s ease 0.6s !important;
   }
   .navbar-nav li.fade {
     opacity: 1;
+  }
+  #nav-right {
+    margin-left: 0 !important;
+    margin-top: 2em !important;
+    margin-bottom: 2em !important;
   }
   .hero_section .hero-info {
     margin-top: 4em;
