@@ -497,7 +497,7 @@
   #nav-right {
     margin-left: 0 !important;
     margin-top: 2em !important;
-    margin-bottom: 2em !important;
+    margin-bottom: 2.5em !important;
   }
   .hero_section .hero-info {
     margin-top: 4em;
@@ -648,7 +648,7 @@
     font-size: 1em;
   }
 }
-@media only screen and (min-width: 400px) {
+@media only screen and (max-width: 400px) {
   .hero_section .search_box{
     max-width: 380px;
     background: #fff;
