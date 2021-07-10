@@ -3,8 +3,16 @@ const navbarNav = document.querySelector(".navbar-nav");
 const navs = document.querySelectorAll(".navbar-nav li");
  
 // Tambah event untuk hamburger
+let menuOpen = false;
 hamburger.addEventListener("click", () => {
-  navbarNav.classList.toggle("open");
+  // navbarNav.classList.toggle("open");
+  if(!menuOpen) {
+    hamburger.classList.add('open')
+    menuOpen = true
+  } else {
+    hamburger.classList.remove('open')
+    menuOpen = false
+  }
   navs.forEach(nav => {
     nav.classList.toggle("fade");
   });
