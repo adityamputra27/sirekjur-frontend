@@ -627,3 +627,60 @@
     font-size: 1em;
   }
 }
+@media screen and (max-width: 400px) {
+  .hero_section .search_box{
+    max-width: 380px;
+    background: #fff;
+    border-radius: 5px;
+    height: 60px;
+    display: flex;
+    padding: 10px;
+    box-shadow: 0px 0px 40px -10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hero_section .search_box .dropdown{
+    width: 100px;
+    font-size: 20px;
+    padding-left: 0.5em;
+    margin-right: 6em;
+  }
+  
+  .hero_section .search_box .dropdown .default_option{
+    padding: 8px 0;
+    font-size: 14px;
+  }
+  .hero_section .search_box .dropdown {
+    font-size: 1em;
+  }
+  .hero_section .search_box .dropdown:before{
+    top: 17px;
+    right: 5px;
+    border-color: #02073D transparent transparent transparent;
+  }
+  .hero_section .search_box .dropdown ul{
+    top: 70px;
+    padding: 15px 15px 10px 15px;
+    width: 100px;
+  }
+  .hero_section .search_box .search_field .btn-search-kampus {
+    width: 80px;
+    height: 45px;
+    font-size: 1em;
+    left: 17.6em;
+  }
+  .hero_section .search_box .search_field .input{
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  .universitas_section .universitas_item .universitas_header h1 {
+    font-size: 28px;
+  }
+  .universitas_section .universitas_item .universitas_header p {
+    font-size: 20px;
+  }
+  .started_section .started_item .started_box .started_right img {
+    top: -10.6em;
+    right: 5em;
+    width: 230px;
+  }
+}
