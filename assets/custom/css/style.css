@@ -460,9 +460,6 @@
     -webkit-clip-path: circle(1000px at 90% -10%);
     pointer-events: all;
   }
-  .landing {
-    flex-direction: column;
-  }
   .navbar-nav li {
     opacity: 0;
   }
@@ -486,5 +483,49 @@
   }
   .hero_section .hero_img { 
     display: none;
+  }
+  .hero_section .hero-info .hero_text h1 {
+    font-size: 40px;
+  }
+  .hero_section .hero-info .hero_text p {
+    font-size: 1em;
+  }
+  .hero_section .search_box{
+    max-width: 460px;
+    background: #fff;
+    border-radius: 5px;
+    height: 70px;
+    display: flex;
+    padding: 10px;
+    box-shadow: 0px 0px 40px -10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hero_section .search_box .dropdown{
+    width: 150px;
+    border-left: 2px solid #dde2f1;
+    color: #5323A5;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+    margin-top: 0.1em;
+    padding-left: 1em;
+  }
+  
+  .hero_section .search_box .dropdown .default_option{
+    text-transform: uppercase;
+    padding: 13px 15px;
+    font-size: 14px;
+  }
+  
+  .hero_section .search_box .dropdown ul{
+    position: absolute;
+    top: 70px;
+    left: -10px;
+    background: #fff;
+    width: 150px;
+    border-radius: 5px;
+    padding: 20px;
+    display: none;
+    box-shadow: 8px 8px 6px -10px #b3c6ff;
   }
 }
