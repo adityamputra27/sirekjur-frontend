@@ -9,8 +9,13 @@
     list-style: none;
 }
 /* Komponen awal */
-h1,label, .btn {
+h1,a,label, .btn {
   font-family: 'Poppins', sans-serif;
+}
+::placeholder {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  color: #848492;
 }
 h1 {
   font-size: 28px;
@@ -22,7 +27,7 @@ p {
   font-size: 18px;
   font-weight: normal;
   color: #848492;
-  line-height: 1em;
+  line-height: 1.2em;
 }
 label {
   font-size: 16px;
@@ -30,11 +35,16 @@ label {
   color: #040B5F;
 }
 form {
-  margin-top: 4em !important;
+  margin-top: 3.5em !important;
 }
 .form-control {
-  height: 45px !important;
+  height: 50px !important;
   border-radius: 5px !important;
+}
+a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #040B5F;
 }
 .navbar {
   height: 20vh;
@@ -373,7 +383,7 @@ form {
 }
 /* Input Nilai */
 .content {
-  margin: 3.5em 0 5em 0;
+  margin: 2em 0 7em 0;
 }
 .form_button {
   margin-top: 2em;
