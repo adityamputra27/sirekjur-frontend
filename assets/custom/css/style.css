@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
 * { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body {
-  min-height: 10000px;
 }
 .navbar {
   height: 20vh;
@@ -214,7 +212,7 @@ body {
   color: #7F86A1;
 }
 .universitas_section {
-  padding: 4.5em 0 4.5em 0;
+  padding: 4.5em 0 6em 0;
 }
 .universitas_section .universitas_item .universitas_header {
   padding-bottom: 3em;
@@ -232,7 +230,197 @@ body {
   color: #5323A5;
   line-height: 1em;
 }
-
+.universitas_section .universitas_item .card {
+  max-width: 250px;
+  height: 350px;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  /* position: relative; */
+}
+.universitas_section .universitas_item .card .card-img-info {
+  max-width: 80px;
+  max-height: 80px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 10;
+  top: 34%;
+  left: 35%;
+}
+.universitas_section .universitas_item .card .card-img-info img {
+  width: 80px;
+}
+.universitas_section .universitas_item .card .card-body {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.universitas_section .universitas_item .card .card-title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #5323A5;
+  padding-top: 0.5em;
+  /* margin-top: 1em; */
+}
+.universitas_section .universitas_item .card .card-text {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #02073D;
+}
+.universitas_section .universitas_item .card .btn-detail-jurusan {
+  width: 150px;
+  height: 40px;
+  border-radius: 5;
+  font-family: 'Poppins', sans-serif;
+  background-color: #5323A5;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  padding-top: 0.8em;
+}
+.universitas_section .universitas_item .load-more {
+  margin-top: 3em;
+  text-align: center;
+}
+.universitas_section .universitas_item .btn-load-more {
+  width: 200px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: #F5F0FF;
+  color: #5323A5;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  padding-top: 1em;
+}
+.started_section {
+  background-color: #F8FCFF;
+  padding: 6em 0 6em 0;
+}
+.started_section .started_item .started_box {
+  width: 1166px;
+  height: 250px;
+  background: linear-gradient(90deg, rgba(83, 35, 165, 0.93) 42.97%, rgba(83, 35, 165, 0.66) 101.82%, rgba(83, 35, 165, 0.395833) 101.83%, rgba(83, 35, 165, 0) 101.84%);
+  border-radius: 20px;
+  position: relative;
+}
+.started_section .started_item .started_box .started_left {
+  padding: 2.5em 0 1em 3.5em;
+}
+.started_section .started_item .started_box .started_left h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.started_section .started_item .started_box .started_left p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  line-height: 1.2em;
+}
+.started_section .started_item .started_box .started_left .btn-get-started {
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: white;
+  color: #5323A5;
+  padding-top: 0.8em;
+  margin-top: 1em;
+}
+.started_section .started_item .started_box .started_right img {
+  position: absolute;
+  top: -9.23em;
+  right: 7em;
+}
+.footer_section {
+  padding: 4.5em 0 0em 0;
+}
+.footer_section .footer_item .footer_info .footer_logo h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #7F84AD;
+  text-transform: uppercase;
+}
+.footer_section .footer_item .footer_info .footer_logo img {
+  opacity: 0.6;
+}
+.footer_section .footer_item .footer_info .footer_logo .padding {
+  padding-left: 0.8em;
+}
+.footer_section .footer_item .footer_info .footer_description p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  color: #848492;
+  padding-left: 0.5em;
+}
+.footer_section .footer_item .footer_socmed ul{
+  text-decoration: none;
+  list-style: none;
+  margin-left: 0.4em;
+}
+.footer_section .footer_item .footer_socmed li {
+  display: inline-block;
+  width: 50px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #EEF0F2;
+  margin-right: 1em;
+  font-size: 1.4em;
+  padding: 3px 0px 0px 16px;
+}
+.footer_section .footer_item .footer_socmed li:hover {
+  transition: .5s ease;
+  cursor: pointer;
+  background-color: #5323A5;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.footer_section .footer_item .footer_socmed li a{
+  color: #848492;
+}
+.footer_section .footer_item .footer_socmed li:hover a {
+  color: white;
+}
+.footer_section .footer_item .footer_menu h3 {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 1.1em;
+  font-size: 1em;
+  font-weight: 600;
+  color: #02073D;
+}
+.footer_section .footer_item .footer_menu ul {
+  list-style: none;
+  margin: 13px 0 0 1px;
+  text-decoration: none;
+}
+.footer_section .footer_item .footer_menu li a{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #02073D;
+  text-decoration: none;
+  line-height: 2.2em;
+}
+.footer_section .footer_item .footer_dev {
+  text-align: center;
+  margin-top: 4em;  
+}
+.footer_section .footer_item .footer_dev p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8em;
+  font-weight: normal;
+  color: #848492;
+}
 @media screen and (max-width: 768px) {
   .line {
     width: 30px;
