@@ -434,9 +434,9 @@
     height: 5px;
     position: absolute;
     cursor: pointer;
-    right: 5%;
+    right: 6%;
     z-index: 2;
-    top: 45px;
+    top: 40px;
   }
   .hamburger .line:nth-child(1) {
     background: #040B5F;
